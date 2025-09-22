@@ -1,1 +1,7 @@
 
+[submodule "POS/lab01-flamyngu"]
+	path = POS/lab01-flamyngu
+	url = https://github.com/Die-Spengergasse/lab01-flamyngu.git
+[submodule "POS/lab02-flamyngu"]
+	path = POS/lab02-flamyngu
+	url = https://github.com/Die-Spengergasse/lab02-flamyngu.git
