@@ -1,0 +1,10 @@
+bsp.
+
+git submodule add https://github.com/Die-Spengergasse/lab01-flamyngu.git POS/lab01-flamyngu
+git submodule add https://github.com/Die-Spengergasse/<aufgabe>.git <where to>
+
+git submodule update --init --recursive
+
+git add .gitmodules <same as "where to">
+git commit -m "Add submodules"
+git push
