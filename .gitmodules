@@ -5,3 +5,6 @@
 [submodule "POS/lab02-flamyngu"]
 	path = POS/lab02-flamyngu
 	url = https://github.com/Die-Spengergasse/lab02-flamyngu.git
+[submodule "WMC/sj2526-3dhif-wmc-lab01-wiederholung-flamyngu"]
+	path = WMC/sj2526-3dhif-wmc-lab01-wiederholung-flamyngu
+	url = https://github.com/Die-Spengergasse/sj2526-3dhif-wmc-lab01-wiederholung-flamyngu.git
