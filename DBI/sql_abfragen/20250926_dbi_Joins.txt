@@ -1,0 +1,48 @@
+
+-- ----------------------------
+
+use companydb;
+#1. Auflisten aller Jobs einer Firma, wobei gleiche Spaltenwerte verhindert
+#werden.
+select distinct e_job from e_emp;
+
+#2. Angabe eines Alias-Namen für die Spaltenüberschriften DNAME - DEPARTMENT,
+#DEPTNO - DEPTNUMMER der Tabelle DEPT.
+use companydb;
+select d_dname as DEPARTMENT,
+d_deptno as DEPTNUMMER from d_dept;
+
+#3. Auflisten aller Mitarbeiter die mehr Provision als Gehalt verdienen.
+use companydb;
+select *
+from e_emp
+where e_comm > e_sal;
+
+#4. Auflisten aller Manager und Verkäufer die mehr als 1.500.- verdienen.
+use companydb;
+select * from e_emp
+where (e_job = "manager" or e_job = "salesman") and e_sal > 1500;
+
+#5. Auflisten aller Mitarbeiter die zwischen 1.200.- und 1.300.- verdienen. (Between, >=
+#<=)
+use companydb;
+select * from e_emp 
+where e_sal >= 1200 and e_sal <= 1300;
+
+#6. Auflisten aller Mitarbeiter die weniger als 1.200.- und mehr als 1.300.- verdienen.
+use companydb;
+select * from e_emp 
+where e_sal < 1200 or e_sal > 1300;
+
+#7. Auflisten aller Mitarbeiter, die weder Büroangestellte noch Analytiker noch Verkäufer
+#sind.
+use companydb;
+select * from e_emp
+where not (e_job = "clerk" or e_job = "analyst" or e_job = "salesman");
+
+#8. Ausgabe aller Mitarbeiter (alle Daten aus Mitarbeiter + Department-name) aus
+#Abteilung 30 absteigend geordnet nach ihrem Gehalt.
+use companydb;
+select * from e_emp
+#to be joined
+where e_d_deptno = 30
