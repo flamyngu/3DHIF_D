@@ -8,3 +8,6 @@
 [submodule "WMC/sj2526-3dhif-wmc-lab01-wiederholung-flamyngu"]
 	path = WMC/sj2526-3dhif-wmc-lab01-wiederholung-flamyngu
 	url = https://github.com/Die-Spengergasse/sj2526-3dhif-wmc-lab01-wiederholung-flamyngu.git
+[submodule "POS/lab03-flamyngu"]
+	path = POS/lab03-flamyngu
+	url = https://github.com/Die-Spengergasse/sj25-26-3dhif-pos-inheritance1-flamyngu.git
