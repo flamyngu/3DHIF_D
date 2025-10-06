@@ -1,5 +1,7 @@
 bsp.
 
+git pull //sicher gehen das wir auf dem aktuellsten stand sind 
+
 git submodule add https://github.com/Die-Spengergasse/lab01-flamyngu.git POS/lab01-flamyngu
 git submodule add https://github.com/Die-Spengergasse/<aufgabe>.git <where to>
 
