@@ -1,0 +1,32 @@
+// This is your Prisma schema file
+// Learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite" // We're using SQLite for simplicity
+  url      = env("DATABASE_URL")
+}
+
+// Define your first model
+model User {
+  id        Int      @id @default(autoincrement())
+  email     String   @unique
+  name      String?  // The '?' makes this field optional
+  posts     Post[]   // A User can have multiple Posts (one-to-many relationship)
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
+
+model Post {
+  id        Int      @id @default(autoincrement())
+  title     String
+  content   String?
+  published Boolean  @default(false)
+  authorId  Int      // Foreign key
+  author    User     @relation(fields: [authorId], references: [id]) // Establishes the relationship
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}
