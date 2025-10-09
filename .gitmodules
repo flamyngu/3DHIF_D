@@ -14,3 +14,6 @@
 [submodule "POS/lab04-flamyngu"]
 	path = POS/lab04-flamyngu
 	url = https://github.com/Die-Spengergasse/sj25-26-3dhif-pos-delegates-lab04-flamyngu.git
+[submodule "POS/lab05-flamyngu"]
+	path = POS/lab05-flamyngu
+	url = https://github.com/Die-Spengergasse/sj25-26-3dhif-pos-interface-lab05-flamyngu
