@@ -17,3 +17,6 @@
 [submodule "POS/lab05-flamyngu"]
 	path = POS/lab05-flamyngu
 	url = https://github.com/Die-Spengergasse/sj25-26-3dhif-pos-interface-lab05-flamyngu
+[submodule "WMC/sj2526-3dhif-wmc-emil-tracker-backend-flamyngu"]
+	path = WMC/sj2526-3dhif-wmc-emil-tracker-backend-flamyngu
+	url = https://github.com/Die-Spengergasse/sj2526-3dhif-wmc-emil-tracker-backend-flamyngu.git
