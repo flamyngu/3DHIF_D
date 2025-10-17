@@ -1,0 +1,41 @@
+Table roles {
+  id serial [pk]
+  name varchar
+}
+
+Table persons {
+  id serial [pk]
+  name varchar
+}
+
+Table person_roles {
+  person_id int [ref: > persons.id]
+  role_id int [ref: > roles.id]
+  Note: "Erlaubt, dass eine Person mehrere Rollen hat (z.B. Lehrer und Schüler gleichzeitig)"
+}
+
+Table classes {
+  id serial [pk]
+  name varchar
+  kv_id int [ref: > persons.id, note: "KV (Klassenvorstand = homeroom teacher)"]
+}
+
+Table class_students {
+  class_id int [ref: > classes.id]
+  student_id int [ref: > persons.id]
+  Note: "Verknüpfung zwischen Klassen und Schülern"
+}
+
+Table rooms {
+  id serial [pk]
+  room_number varchar
+  location varchar
+}
+
+Table room_assignments {
+  id serial [pk]
+  room_id int [ref: > rooms.id]
+  class_id int [ref: > classes.id]
+  teacher_id int [ref: > persons.id]
+  Note: "Wer unterrichtet (teacher_id), welche Klasse (class_id) in welchem Raum (room_id)"
+}
