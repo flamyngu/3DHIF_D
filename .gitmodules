@@ -20,3 +20,6 @@
 [submodule "WMC/sj2526-3dhif-wmc-emil-tracker-backend-flamyngu"]
 	path = WMC/sj2526-3dhif-wmc-emil-tracker-backend-flamyngu
 	url = https://github.com/Die-Spengergasse/sj2526-3dhif-wmc-emil-tracker-backend-flamyngu.git
+[submodule "POS/lab06-flamyngu"]
+	path = POS/lab06-flamyngu
+	url = https://github.com/Die-Spengergasse/sj25-26-3dhif-pos-collections-lab06-flamyngu.git
