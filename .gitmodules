@@ -26,3 +26,6 @@
 [submodule "POS/lab07-flamyngu"]
 	path = POS/lab07-flamyngu
 	url = https://github.com/Die-Spengergasse/sj25-26-3dhif-pos-muster-pl-lab07-flamyngu.git
+[submodule "POS/lab08-flamyngu"]
+	path = POS/lab08-flamyngu
+	url = https://github.com/Die-Spengergasse/sj25-26-3dhif-pos-collections-lab08-flamyngu.git
