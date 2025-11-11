@@ -29,3 +29,6 @@
 [submodule "POS/lab08-flamyngu"]
 	path = POS/lab08-flamyngu
 	url = https://github.com/Die-Spengergasse/sj25-26-3dhif-pos-collections-lab08-flamyngu.git
+[submodule "WMC/emil_tracker_frontend"]
+	path = WMC/emil_tracker_frontend
+	url = https://github.com/Die-Spengergasse/sj2526-3dhif-wmc-emil-tracker-frontend-flamyngu.git
