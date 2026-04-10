@@ -1,0 +1,29 @@
+# player ------------------------------------------------------
+p_playerno
+p_name
+p_initials
+p_year_of_birth
+p_sex
+p_year_joined
+p_street
+p_houseno
+p_postcode
+p_town
+p_phoneno
+p_leagueno
+# teams ------------------------------------------------------
+t_teamno,
+t_p_playerno,
+t_division
+# matches------------------------------------------------------
+m_matchno
+m_t_teamno
+m_p_playerno
+m_won
+m_lost
+# penalties ------------------------------------------------------
+pe_paymentno
+pe_p_playerno
+pe_pen_date
+pe_amount
+#------------------------------------------------------

@@ -1,0 +1,32 @@
+10:08:22	load data local infile 'C:/Users/FSL/Desktop/loaddata/Subjects.csv'  into table s_subjects fields terminated by ';' enclosed by '"' lines terminated by '\n'	Error Code: 3948. Loading local data is disabled; this must be enabled on both the client and server sides	0.000 sec
+in script, wie besprochen einfügen
+SET GLOBAL local_infile = 1;
+
+
+10:11:45	load data local infile 'C:/Users/FSL/Desktop/loaddata/Subjects.csv'  into table s_subjects fields terminated by ';' enclosed by '"' lines terminated by '\n'	Error Code: 2068. LOAD DATA LOCAL INFILE file request rejected due to restrictions on access.	0.000 sec
+Connection Einstellung->edit->advanced->in others einfügen
+OPT_LOCAL_INFILE=1
+
+
+key words: mysql load data probleme 8.0
+
+
+als root ausführen!
+
+SET GLOBAL local_infile = 1;
+
+
+
+https://stackoverflow.com/questions/60357857/how-can-i-load-local-data-in-mysql-workbench-8-0
+
+
+https://dev.mysql.com/doc/refman/8.0/en/load-data.html
+
+Probleme mit date:
+
+LOAD DATA LOCAL INFILE '/home/input/data.csv' INTO TABLE allusers_data
+  FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '\"'
+  LINES TERMINATED BY '\n'
+  (user_id, employee_id, employee_name, first_name, last_name, middle_name, email_id, @start_date, end_date)
+  SET start_date = STR_TO_DATE(@start_date, '%m/%d/%Y');.
+
