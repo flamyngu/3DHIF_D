@@ -1,0 +1,75 @@
+Life-Cycle-Costing:
+ 
+- verfahren zur Erfassung und analyse 
+
+- Zeitraum: Planung, Entwicklung, Produktion, Nutzung, Entsorgung, Rückbau
+- Anwendungsgebiet: Häufig beim Einkauf oder bei Maschinen
+- Phasen: kosten fallen ungleich an, oft Nutzungsphase -> größter Teil
+
+- Ziel:
+- Minimierung der Gesamtkosten
+- Identifikation von Einsparpotenzialen
+
+- Phasen:
+- Vorlaufphase: Planung
+- Beschaffungs-/Herstellungsphase: Einkauf
+- Nutzungsphase: Betrieb, Wartung
+- Nachlaufphase: Entsorgung
+
+Öko-Costing:
+
+-Umsetzung:
+-Analyse => Umweltfaktoren => Bewertung der Ressourcengewinnung => Kostne zuordnen
+
+-Öko-Costing Model der TU Delf:
+-Emissionen
+-Energieverbrauch
+-Ressourcen
+-Landnutzung
+-Soziale Kosten
+
+Benchmarking:
+
+-Definition:
+-Systematischer Vergleich eigener Prozesse mit denen von Best-Practice-Unternehmen
+
+-Ziel:
+-Verbesserungspotenzial finden und anwenden
+
+-Arten:
+-Internes Benchmarking
+-Wettbewerbsorientiertes Benchmarking
+-Funktionales Benchmarking
+-Generische Benchmarking
+
+-Prozess:
+-Planung => Datenerhebung => Analyse => Implementierung
+
+-Fazit:
+-Benchmarking ist ein kontinuierlicher, langer Prozess
+
+Zielkostenrechunung:
+
+-Grundidee:
+-Marktpreis bestimmen => Zielgewinn festlegen => Zielkosten berechnen
+
+-Ablauf:
+-Analyse => Verkaufspreis festlegen => Gewinn festlegen 
+=> Kosten berechnen => Kostenaufteilung => Vergleichen und optimieren
+
+-Zielkostenindex:
+Kundenbedeutung/Kostenanteil
+
+Voteile:
+-Marktorientierung
+-Frühe Kostenkontrolle
+-Wettbewerbsfähigkeit
+-Interdisziplinarität
+
+Nachteile:
+-Hoher Planungsaufwand
+-Unsicherheit bei Prognosen
+-Druck zur Kostensenkung  
+-Abteilungskonflikte
+
+
